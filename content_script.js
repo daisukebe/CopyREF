@@ -5,6 +5,6 @@
     }
 
     //analyze DOM and get required information
-    //$("hoge");
+    $(document.title);
 	
 })();
