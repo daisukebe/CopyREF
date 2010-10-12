@@ -1,0 +1,22 @@
+﻿<html>
+<script>
+chrome.browserAction.onClicked.addListener(function(tab) {
+	chrome.tabs.executeScript(null,	{file:"content_script.js"});
+	chrome.extension.onRequest.addListener(
+		function(request, sender, sendResponse) {
+			var c = document.getElementById("cbcoafaofceopdilojccibdnadnjfnfj");
+			
+			if(c){
+				c.value = request.greeting;
+				c.select();
+				document.execCommand("copy", false, null);
+			}
+
+			sendResponse({});
+		}
+	);
+});
+</script>
+<input id="cbcoafaofceopdilojccibdnadnjfnfj" value="">
+</html>
+

@@ -1,0 +1,15 @@
+﻿{
+	"name": "CopyREF for Google Chrome",
+	"version": "0.5.3",
+	"description": "Copy Page Title to Your Clipboard",
+	"browser_action": {
+		"default_icon": "copyref.png"
+	},
+	"permissions":[
+		"tabs", 
+		"https://*/*",
+		"http://*/*"
+	],
+	"background_page": "background.html"
+	
+}
