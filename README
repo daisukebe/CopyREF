@@ -1,5 +1,7 @@
 ﻿** ABOUT THIS **
-This works in almost of web sites
+This works in almost of web sites to copy the page title you're watching.
+If you won't get a title you expect, you should get it from analyzing DOM.  Then you can edit content_script.js to do that.
+
 When you install, will receive the message "This extension will have
 access to your browsing history and private data on all websites", the
 extension, however, does NOT access to your private data!
